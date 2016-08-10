@@ -9,12 +9,9 @@
 title: Graduate Math Modelling in Industry - 2016
 email: webmaster@pims.math.ca
 description: > 
-  The Mathematical Modelling in Industry Workshop for Graduate Students is
-  designed to provide graduate students and qualified advanced undergraduates
-  with first-hand experience in industrial research in the mathematical sciences.
-  This one week event in Vancouver will focus on team work to tackle specific
-  projects in mathematical and statistical modelling of industrial process, with
-  an emphasis on the development of young researchers.
+  The GMMIW (Graduate Mathematical Modelling in Industry Workshop) is a week
+  long workshop which brings together Graduate Students and Industry Experts to
+  work on real world problems.
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://gmmiw2016.surge.sh" # the base hostname & protocol for your site

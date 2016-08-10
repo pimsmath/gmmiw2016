@@ -4,4 +4,4 @@ title:  "GMMIW Mid Week Reports"
 date:   2016-08-7 14:22:01 -0700
 categories: gmmiw industry pims
 ---
-It's only been two days, but we can't wait to hear what you've been doing!
+Group 4, took a trip to the Chan Center
