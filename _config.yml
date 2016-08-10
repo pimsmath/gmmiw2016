@@ -1,0 +1,25 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Graduate Math Modelling in Industry - 2016
+email: webmaster@pims.math.ca
+description: > 
+  The Mathematical Modelling in Industry Workshop for Graduate Students is
+  designed to provide graduate students and qualified advanced undergraduates
+  with first-hand experience in industrial research in the mathematical sciences.
+  This one week event in Vancouver will focus on team work to tackle specific
+  projects in mathematical and statistical modelling of industrial process, with
+  an emphasis on the development of young researchers.
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://gmmiw2016.surge.sh" # the base hostname & protocol for your site
+twitter_username: pimsmath
+github_username:  pimsmath
+
+# Build settings
+markdown: kramdown
