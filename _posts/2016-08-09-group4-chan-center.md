@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Group 4 visits the Chan Center"
-date:   2016-08-7 14:22:01 -0700
+date:   2016-08-9 16:54:01 -0700
 categories: gmmiw industry pims
 ---
 Group 4, took a trip to the Chan Center
