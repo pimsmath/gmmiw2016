@@ -15,4 +15,4 @@ env:
 sudo: false 
 
 after_success:
-   surge -p -d gmmmiw2016.surge.sh ./_site/
+   surge -p -d gmmiw2016.surge.sh ./_site/
