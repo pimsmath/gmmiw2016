@@ -1,0 +1,23 @@
+{
+  "name": "@pimsmath/gmmiw2016",
+  "version": "0.0.1",
+  "description": "GMMIW jekyll site via Travis CI.",
+  "homepage": "https://gmmiw2016.surge.sh",
+  "repository": "https://github.com/pimsmath/gmmiw2016.git",
+  "license": "MIT",
+  "private": true,
+  "author": "Ian Allison <iana@pims.math.ca>",
+  "contributors": [
+    "James Colliander <colliand@crowdmark.com>",
+    "Michael Lamoureux   <mikel@pims.math.ca>"
+  ],
+  "keywords": ["surge", "surge.sh", "gmmiw", "gmmiw2016", "static"],
+  "devDependencies": {
+    "mocha": "2.2.5",
+    "surge": "latest"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha",
+    "compile": "jekyll build"
+  }
+}
