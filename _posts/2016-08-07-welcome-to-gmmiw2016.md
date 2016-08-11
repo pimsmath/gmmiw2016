@@ -12,7 +12,7 @@ mathematical expertise on cutting edge problems from areas such as
   * Stochastic modelling for hydro-electric reservoir management     Fabian Bastin - University of Montreal
   * Variable selection problem and statistical prediction for an industrial reactor  Derek Bingham - Simon Fraser University
   * Growth of nanoparticles for industrial production    Tim Myers - Centre de Recerca Matemàtica, Spain
-  * This party is too big, folks" - Setting room capacities for safety.     Nilima Nigam - Simon Fraser Universit *y
+  * This party is too big, folks" - Setting room capacities for safety.     Nilima Nigam - Simon Fraser University
   * Modelling the performance of rechargable Li-Ion batteries    Brian Wetton - University of British Columbia
   * Modelling and optimisation of traffic light systems  Chris Budd - University of Bath, UK 
 
