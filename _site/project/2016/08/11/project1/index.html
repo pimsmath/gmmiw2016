@@ -11,7 +11,7 @@
 
   <title>
     
-      GMMIW Project 3 &middot; Graduate Math Modelling in Industry - 2016
+      GMMIW Project 1 Update &middot; Graduate Math Modelling in Industry - 2016
     
   </title>
 
@@ -106,21 +106,44 @@
 
       <div class="container content">
         <div class="post">
-  <h1 class="post-title">GMMIW Project 3</h1>
-  <span class="post-date">07 Aug 2016</span>
-  <h2 id="project-3-growth-of-nanoparticles-for-industrial-production">Project 3: Growth of nanoparticles for industrial production</h2>
+  <h1 class="post-title">GMMIW Project 1 Update</h1>
+  <span class="post-date">11 Aug 2016</span>
+  <h2 id="project-1-stochastic-modelling-for-hydro">Project 1: Stochastic modelling for hydro</h2>
 
-<h3 id="mentor-tim-myers-centre-de-recerca-matemtica-barcelona">Mentor: Tim Myers, <em>Centre de Recerca Matemàtica, Barcelona</em></h3>
+<h3 id="mentor-fabian-bastin-university-of-montreal">Mentor: Fabian Bastin, <em>University of Montreal</em></h3>
 
-<h3 id="description">Description:</h3>
-<p>Nanoparticles are small units of matter with dimensions in the range of 1 to 100 nanometers. They have recently become the focus of intense research due to their unique characteristics. Nanoparticles exhibit many advantageous size-dependent magnetic, electrical, chemical and optical properties, which are not observed at the macroscale. As these properties are extremely sensitive to the particle size, the ability to produce monodisperse particles that lie within a controlled size distribution is critical. In the context of nanoparticles, monodispersity typically refers to size distributions where the standard deviation is less than five percent. Applications that require uniform particles include light emitting diodes, solar energy systems, multi-terabit magnetic storage and biological imaging.</p>
+<h3 id="description">Description</h3>
 
-<p>In this project we wish to develop a mathematical model for the growth of spherical nanocrystals from solution. Once the basic model is developed we will extend it to a number of particles and determine the factors controlling the size distribution, with the goal of producing particles of a similar size. We will then look for published experimental data and attempt to fit the model to such data.</p>
+<p>Ninety-five percent of Quebec’s Electricity Comes from Hydropower! How the water is used depends on demand (Provincial and American), how much water is currently stored in the reservoir behind the dam, and how much water we expect in the future. If only we knew the future … or were at least able to make an educated guess about the future, we could use optimization schemes to make a choice about how to handle the water,</p>
 
-<p>Desired background for students working in this project include:
-* Partial differential equations
-* Numerical methods
-* Some physics</p>
+<p><img src="/assets/barrage-daniel-johnson-lrg.jpg" alt="Hyrdro-electric dam" /></p>
+
+<p>Unfortunately…. there is a lot of uncertainty in river/reservoir inflows! Our goal is to  create a stochastic method to estimate inflows.</p>
+
+<p><img src="/assets/dam4_plot.jpeg" alt="Variability in water flow" /></p>
+
+<p>Once we have a stochastic method, we will use it to create simulations for a simplified system of dams including three reservoirs and four dams/generators. 
+The simulations will incorporate</p>
+
+<ul>
+  <li>the Julia programming language</li>
+  <li>the CPLEX optimizer, with previous work from the University of Montreal</li>
+  <li>using scenred2 (GAMS) to create scenario trees</li>
+</ul>
+
+<p><img src="/assets/arbre.jpg" alt="Scenario tree" /></p>
+
+<p>At each time-step the simulation will</p>
+
+<ul>
+  <li>create a scenario tree using a large amount of synthetic series created via the stochastic process.</li>
+  <li>based on the current state of the system and the scenario tree, the optimizer will create a decision vector.</li>
+  <li>progress to the next time step according to the formula:</li>
+</ul>
+
+<p>Vol(new) = Vol(prev) + inflows + Vol(upstream) − Vol(turbine) − Vol(spill).</p>
+
+<p>A simulation tool will allow us, or future users, to test and validate different optimizers and stochastic methods!</p>
 
 
 </div>
@@ -128,15 +151,6 @@
 <div class="related">
   <h2>Related Posts</h2>
   <ul class="related-posts">
-    
-      <li>
-        <h3>
-          <a href="/project/2016/08/11/project1/">
-            GMMIW Project 1 Update
-            <small>11 Aug 2016</small>
-          </a>
-        </h3>
-      </li>
     
       <li>
         <h3>
@@ -152,6 +166,15 @@
           <a href="/2016/08/09/group4-chan-center/">
             Group 4 visits the Chan Center
             <small>09 Aug 2016</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/project/2016/08/07/project6/">
+            GMMIW Project 6
+            <small>07 Aug 2016</small>
           </a>
         </h3>
       </li>
