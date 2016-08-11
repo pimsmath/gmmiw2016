@@ -11,3 +11,7 @@ one week event in Vancouver will focus on team work to tackle specific projects
 in mathematical and statistical modelling of industrial process, with an
 emphasis on the development of young researchers.
 
+
+  * [Jupyterhub](https://pims.jupyter.ca)
+  * [Basecamp](https://basecamp.com/2918257/)
+  * [github/pimsmath](https://github.com/pimsmath)

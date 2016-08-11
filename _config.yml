@@ -1,22 +1,27 @@
-# Welcome to Jekyll!
+# Permalinks
 #
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+#relative_permalinks: true
+gems: [jekyll-paginate]
 
-# Site settings
-title: Graduate Math Modelling in Industry - 2016
-email: webmaster@pims.math.ca
-description: > 
+# Setup
+title:               Graduate Math Modelling in Industry - 2016
+#tagline:             'A Jekyll theme'
+description: >
   The GMMIW (Graduate Mathematical Modelling in Industry Workshop) is a week
   long workshop which brings together Graduate Students and Industry Experts to
   work on real world problems.
 
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://gmmiw2016.surge.sh" # the base hostname & protocol for your site
-twitter_username: pimsmath
-github_username:  pimsmath
+url:                 http://gmmiw2016.surge.sh
+baseurl:             ''
+paginate:            5
 
-# Build settings
-markdown: kramdown
+# About/contact
+author:
+  name:              Mark Otto
+  url:               https://twitter.com/mdo
+  email:             markdotto@gmail.com
+
+# Custom vars
+version:             1.0.0
