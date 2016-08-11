@@ -5,6 +5,8 @@ node_js:
 before_script:
   - chmod +x ./_script/cibuild
 
+script: ./_script/cibuild
+
 deploy:
   provider: surge
   project: './_site/'
