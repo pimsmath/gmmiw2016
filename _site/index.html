@@ -109,6 +109,55 @@
   
   <div class="post">
     <h1 class="post-title">
+      <a href="/2016/08/11/2016-08-11-project1/">
+        
+      </a>
+    </h1>
+
+    <span class="post-date">11 Aug 2016</span>
+
+    <h2 id="project-1-stochastic-modelling-for-hydro">Project 1: Stochastic modelling for hydro</h2>
+
+<h3 id="mentor-fabian-bastin-university-of-montreal">Mentor: Fabian Bastin, <em>University of Montreal</em></h3>
+
+<h3 id="description">Description</h3>
+
+<p>Ninety-five percent of Quebec’s Electricity Comes from Hydropower! How the water is used depends on demand (Provincial and American), how much water is currently stored in the reservoir behind the dam, and how much water we expect in the future. If only we knew the future … or were at least able to make an educated guess about the future, we could use optimization schemes to make a choice about how to handle the water,</p>
+
+<p><img src="/assets/barrage-daniel-johnson-lrg.jpg" alt="Hyrdro-electric dam" /></p>
+
+<p>Unfortunately…. there is a lot of uncertainty in river/reservoir inflows! Our goal is to  create a stochastic method to estimate inflows.</p>
+
+<p><img src="/assets/dam4_plot.jpeg" alt="Variability in water flow" /></p>
+
+<p>Once we have a stochastic method, we will use it to create simulations for a simplified system of dams including three reservoirs and four dams/generators. 
+The simulations will incorporate</p>
+
+<ul>
+  <li>the Julia programming language</li>
+  <li>the CPLEX optimizer, with previous work from the University of Montreal</li>
+  <li>using scenred2 (GAMS) to create scenario trees</li>
+</ul>
+
+<p><img src="/assets/arbre.jpg" alt="Scenario tree" /></p>
+
+<p>At each time-step the simulation will</p>
+
+<ul>
+  <li>create a scenario tree using a large amount of synthetic series created via the stochastic process.</li>
+  <li>based on the current state of the system and the scenario tree, the optimizer will create a decision vector.</li>
+  <li>progress to the next time step according to the formula:</li>
+</ul>
+
+<p>Vol(new) = Vol(prev) + inflows + Vol(upstream) − Vol(turbine) − Vol(spill).</p>
+
+<p>A simulation tool will allow us, or future users, to test and validate different optimizers and stochastic methods!</p>
+
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
       <a href="/2016/08/11/2016-08-07-project6/">
         
       </a>
@@ -118,7 +167,7 @@
 
     <h2 id="project-6-modelling-and-optimisation-of-traffic-light-signals">Project 6: Modelling and optimisation of traffic light signals</h2>
 
-<h3 id="mentor-chris-budd--university-of-bath-uk">Mentor: Chris Budd,  University of Bath, UK</h3>
+<h3 id="mentor-chris-budd--university-of-bath-uk">Mentor: Chris Budd,  <em>University of Bath, UK</em></h3>
 
 <h3 id="description">Description:</h3>
 <p>Traffic flow through a city is an important problem for transport planners; traffic jams can have serious economic implications both for the individuals stuck in the jams and the businesses that lose time and revenue as a result. Traffic light signalling is a crucial part of maintaining a good traffic flow and robust algorithms are needed to determine the signal timings. As flow rates increase during peak times, poorly chosen timings will cause the breakdown of the flow, and hence create a traffic jam. Well chosen timings will allow higher flow rates and hence delay the breakdown of the flow, potentially avoiding a traffic jam altogether.</p>
@@ -147,7 +196,7 @@ A further level of sophistication comes when sensor input is available to the tr
 
     <h2 id="project-4-this-party-is-too-big-folks-setting-room-capacities-for-safety">Project 4: This party is too big, folks! Setting room capacities for safety.</h2>
 
-<h3 id="mentor-nilima-nigam-simon-fraser-university">Mentor: Nilima Nigam, Simon Fraser University</h3>
+<h3 id="mentor-nilima-nigam-simon-fraser-university">Mentor: Nilima Nigam, <em>Simon Fraser University</em></h3>
 
 <h3 id="description">Description:</h3>
 <p>Most rooms for public gatherings will have signage about the maximum lawful capacity of people in the room. Similarly, elevators state a maximum number of people. In this project, the students’ task is to develop a mathematical model to determine the maximum lawful capacity for the Chan Shun Concert Hall in the Chan Centre for the Performing Arts at UBC. Similarly, the students will determine the maximum allowable number of people in the elevators leading to the Chan Centre.</p>
@@ -196,35 +245,6 @@ A further level of sophistication comes when sensor input is available to the tr
 <p><img src="/assets/group4-chan-center.jpg" alt="Chan Center Visit" /></p>
 
 <p><a href="https://twitter.com/pimsmath/status/763115330348527617">@pimsmath</a></p>
-
-  </div>
-  
-  <div class="post">
-    <h1 class="post-title">
-      <a href="/project/2016/08/07/project5/">
-        GMMIW Project 5
-      </a>
-    </h1>
-
-    <span class="post-date">07 Aug 2016</span>
-
-    <h2 id="project-5-modelling-the-performance-of-rechargeable-li-ion-batteries">Project 5: Modelling the performance of rechargeable Li-Ion batteries</h2>
-
-<h3 id="mentor-brian-wetton-university-of-british-columbia">Mentor: Brian Wetton, University of British Columbia</h3>
-
-<h3 id="description">Description:</h3>
-<p>Rechargeable batteries are now standard components in electronic devices and are becoming more widely used in electric vehicles. Lithium ion batteries are one of the most popular types for both of these applications. They have high energy density and a long shelf life, are cheap to construct, and are safe to store and operate (all in comparison to other battery types). In these batteries, energy is stored when Lithium ions enter a solid electrode of layered material. Basic information about Lithium ion batteries can be found, on Wikipedia and at http://batteryuniversity.com/</p>
-
-<p>This project will explore the modelling of small scale Lithium ion batteries for electronic devices. Using experimental data on charging and discharging cycles, we will develop virtual battery simulation tools to predict performance in varying conditions and to develop optimal charging strategies. Models will begin with simple black box (system identification) and equivalent circuit models and can be extended to include more physics and chemistry. As time permits, we can consider using the simulation tools to investigate charging and operation of batteries with different characteristics arranged in parallel and series.</p>
-
-<p>Students may measure battery performance themselves using simple electronic equipment, if time and resources permit. As a backup plan, the experimental data used to develop the models will be taken from the manufacturer’s data and scientific literature.</p>
-
-<p>Desired background for students working in this project include:</p>
-
-<ul>
-  <li>Differential equations</li>
-  <li>Numerical methods</li>
-</ul>
 
   </div>
   

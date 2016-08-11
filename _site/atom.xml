@@ -4,7 +4,7 @@
  <title>Graduate Math Modelling in Industry - 2016</title>
  <link href="http://gmmiw2016.surge.sh/atom.xml" rel="self"/>
  <link href="http://gmmiw2016.surge.sh/"/>
- <updated>2016-08-11T11:43:38-07:00</updated>
+ <updated>2016-08-11T13:43:22-07:00</updated>
  <id>http://gmmiw2016.surge.sh</id>
  <author>
    <name>Mark Otto</name>
@@ -14,12 +14,57 @@
  
  <entry>
    <title></title>
+   <link href="http://gmmiw2016.surge.sh/2016/08/11/2016-08-11-project1/"/>
+   <updated>2016-08-11T13:43:22-07:00</updated>
+   <id>http://gmmiw2016.surge.sh/2016/08/11/2016-08-11-project1</id>
+   <content type="html">&lt;h2 id=&quot;project-1-stochastic-modelling-for-hydro&quot;&gt;Project 1: Stochastic modelling for hydro&lt;/h2&gt;
+
+&lt;h3 id=&quot;mentor-fabian-bastin-university-of-montreal&quot;&gt;Mentor: Fabian Bastin, &lt;em&gt;University of Montreal&lt;/em&gt;&lt;/h3&gt;
+
+&lt;h3 id=&quot;description&quot;&gt;Description&lt;/h3&gt;
+
+&lt;p&gt;Ninety-five percent of Quebec’s Electricity Comes from Hydropower! How the water is used depends on demand (Provincial and American), how much water is currently stored in the reservoir behind the dam, and how much water we expect in the future. If only we knew the future … or were at least able to make an educated guess about the future, we could use optimization schemes to make a choice about how to handle the water,&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/barrage-daniel-johnson-lrg.jpg&quot; alt=&quot;Hyrdro-electric dam&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Unfortunately…. there is a lot of uncertainty in river/reservoir inflows! Our goal is to  create a stochastic method to estimate inflows.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/dam4_plot.jpeg&quot; alt=&quot;Variability in water flow&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Once we have a stochastic method, we will use it to create simulations for a simplified system of dams including three reservoirs and four dams/generators. 
+The simulations will incorporate&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;the Julia programming language&lt;/li&gt;
+  &lt;li&gt;the CPLEX optimizer, with previous work from the University of Montreal&lt;/li&gt;
+  &lt;li&gt;using scenred2 (GAMS) to create scenario trees&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/arbre.jpg&quot; alt=&quot;Scenario tree&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;At each time-step the simulation will&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;create a scenario tree using a large amount of synthetic series created via the stochastic process.&lt;/li&gt;
+  &lt;li&gt;based on the current state of the system and the scenario tree, the optimizer will create a decision vector.&lt;/li&gt;
+  &lt;li&gt;progress to the next time step according to the formula:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Vol(new) = Vol(prev) + inflows + Vol(upstream) − Vol(turbine) − Vol(spill).&lt;/p&gt;
+
+&lt;p&gt;A simulation tool will allow us, or future users, to test and validate different optimizers and stochastic methods!&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title></title>
    <link href="http://gmmiw2016.surge.sh/2016/08/11/2016-08-07-project6/"/>
-   <updated>2016-08-11T11:43:38-07:00</updated>
+   <updated>2016-08-11T13:43:22-07:00</updated>
    <id>http://gmmiw2016.surge.sh/2016/08/11/2016-08-07-project6</id>
    <content type="html">&lt;h2 id=&quot;project-6-modelling-and-optimisation-of-traffic-light-signals&quot;&gt;Project 6: Modelling and optimisation of traffic light signals&lt;/h2&gt;
 
-&lt;h3 id=&quot;mentor-chris-budd--university-of-bath-uk&quot;&gt;Mentor: Chris Budd,  University of Bath, UK&lt;/h3&gt;
+&lt;h3 id=&quot;mentor-chris-budd--university-of-bath-uk&quot;&gt;Mentor: Chris Budd,  &lt;em&gt;University of Bath, UK&lt;/em&gt;&lt;/h3&gt;
 
 &lt;h3 id=&quot;description&quot;&gt;Description:&lt;/h3&gt;
 &lt;p&gt;Traffic flow through a city is an important problem for transport planners; traffic jams can have serious economic implications both for the individuals stuck in the jams and the businesses that lose time and revenue as a result. Traffic light signalling is a crucial part of maintaining a good traffic flow and robust algorithms are needed to determine the signal timings. As flow rates increase during peak times, poorly chosen timings will cause the breakdown of the flow, and hence create a traffic jam. Well chosen timings will allow higher flow rates and hence delay the breakdown of the flow, potentially avoiding a traffic jam altogether.&lt;/p&gt;
@@ -40,11 +85,11 @@ A further level of sophistication comes when sensor input is available to the tr
  <entry>
    <title></title>
    <link href="http://gmmiw2016.surge.sh/2016/08/11/2016-08-07-project4/"/>
-   <updated>2016-08-11T11:43:38-07:00</updated>
+   <updated>2016-08-11T13:43:22-07:00</updated>
    <id>http://gmmiw2016.surge.sh/2016/08/11/2016-08-07-project4</id>
    <content type="html">&lt;h2 id=&quot;project-4-this-party-is-too-big-folks-setting-room-capacities-for-safety&quot;&gt;Project 4: This party is too big, folks! Setting room capacities for safety.&lt;/h2&gt;
 
-&lt;h3 id=&quot;mentor-nilima-nigam-simon-fraser-university&quot;&gt;Mentor: Nilima Nigam, Simon Fraser University&lt;/h3&gt;
+&lt;h3 id=&quot;mentor-nilima-nigam-simon-fraser-university&quot;&gt;Mentor: Nilima Nigam, &lt;em&gt;Simon Fraser University&lt;/em&gt;&lt;/h3&gt;
 
 &lt;h3 id=&quot;description&quot;&gt;Description:&lt;/h3&gt;
 &lt;p&gt;Most rooms for public gatherings will have signage about the maximum lawful capacity of people in the room. Similarly, elevators state a maximum number of people. In this project, the students’ task is to develop a mathematical model to determine the maximum lawful capacity for the Chan Shun Concert Hall in the Chan Centre for the Performing Arts at UBC. Similarly, the students will determine the maximum allowable number of people in the elevators leading to the Chan Centre.&lt;/p&gt;
@@ -95,7 +140,7 @@ A further level of sophistication comes when sensor input is available to the tr
    <id>http://gmmiw2016.surge.sh/project/2016/08/07/project5</id>
    <content type="html">&lt;h2 id=&quot;project-5-modelling-the-performance-of-rechargeable-li-ion-batteries&quot;&gt;Project 5: Modelling the performance of rechargeable Li-Ion batteries&lt;/h2&gt;
 
-&lt;h3 id=&quot;mentor-brian-wetton-university-of-british-columbia&quot;&gt;Mentor: Brian Wetton, University of British Columbia&lt;/h3&gt;
+&lt;h3 id=&quot;mentor-brian-wetton-university-of-british-columbia&quot;&gt;Mentor: Brian Wetton, &lt;em&gt;University of British Columbia&lt;/em&gt;&lt;/h3&gt;
 
 &lt;h3 id=&quot;description&quot;&gt;Description:&lt;/h3&gt;
 &lt;p&gt;Rechargeable batteries are now standard components in electronic devices and are becoming more widely used in electric vehicles. Lithium ion batteries are one of the most popular types for both of these applications. They have high energy density and a long shelf life, are cheap to construct, and are safe to store and operate (all in comparison to other battery types). In these batteries, energy is stored when Lithium ions enter a solid electrode of layered material. Basic information about Lithium ion batteries can be found, on Wikipedia and at http://batteryuniversity.com/&lt;/p&gt;
@@ -142,7 +187,7 @@ A further level of sophistication comes when sensor input is available to the tr
    <id>http://gmmiw2016.surge.sh/project/2016/08/07/project2</id>
    <content type="html">&lt;h2 id=&quot;project-2-variable-selection-and-statistical-prediction-for-a-fusion-reactor&quot;&gt;Project 2: Variable selection and statistical prediction for a fusion reactor&lt;/h2&gt;
 
-&lt;h3 id=&quot;mentor-derek-bingham-simon-fraser-university&quot;&gt;Mentor: Derek Bingham, Simon Fraser University&lt;/h3&gt;
+&lt;h3 id=&quot;mentor-derek-bingham-simon-fraser-university&quot;&gt;Mentor: Derek Bingham, &lt;em&gt;Simon Fraser University&lt;/em&gt;&lt;/h3&gt;
 
 &lt;h3 id=&quot;description&quot;&gt;Description:&lt;/h3&gt;
 &lt;p&gt;General Fusion is designing and testing a prototype of a nuclear fusion

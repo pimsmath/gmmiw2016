@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  "Welcome to GMMIW 2016!"
-date:   2016-08-7 00:22:00 -0700
+date:   2016-08-07 00:22:00 -0700
 ---
+
 Welcome to the 2016 Graduate Math Modelling in Industry Workshop. 
 
 Over the next week, graduate students from all over the world will gather to
