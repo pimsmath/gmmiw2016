@@ -2,7 +2,6 @@
 layout: post
 title:  "Welcome to GMMIW 2016!"
 date:   2016-08-7 14:22:01 -0700
-categories: gmmiw industry pims
 ---
 Welcome to the 2016 Graduate Math Modelling in Industry Workshop. 
 
