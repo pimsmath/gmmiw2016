@@ -1,13 +1,18 @@
-language: node_js
-node_js:
-  - "node"
+language: ruby
+rvm:
+  - 2.3.0
 
 before_script:
   - chmod +x ./_script/cibuild
+  - npm install --global surge
 
 script: ./_script/cibuild
 
-deploy:
-  provider: surge
-  project: './_site/'
-  domain: gmmiw2016-a.surge.sh
+env:
+  global:
+    - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+
+sudo: false 
+
+after_success:
+   surge -p -d gmmmiw2016.surge.sh ./_site/

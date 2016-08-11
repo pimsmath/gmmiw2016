@@ -13,11 +13,6 @@
   ],
   "keywords": ["surge", "surge.sh", "gmmiw", "gmmiw2016", "static"],
   "devDependencies": {
-    "mocha": "2.2.5",
     "surge": "latest"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\"",
-    "compile": "jekyll build"
-  }
 }
