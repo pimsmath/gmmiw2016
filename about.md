@@ -16,6 +16,8 @@ emphasis on the development of young researchers.
   * [Basecamp](https://basecamp.com/2918257/)
   * [github/pimsmath](https://github.com/pimsmath)
 
+
+{% include mermaid.html %}
 <div class="mermaid">
 gantt
         dateFormat  YYYY-MM-DD

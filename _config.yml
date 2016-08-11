@@ -2,7 +2,8 @@
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
 permalink:           pretty
-relative_permalinks: true
+#relative_permalinks: true
+gems: [jekyll-paginate]
 
 # Setup
 title:               Graduate Math Modelling in Industry - 2016
