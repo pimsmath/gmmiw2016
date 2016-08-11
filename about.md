@@ -15,3 +15,15 @@ emphasis on the development of young researchers.
   * [Jupyterhub](https://pims.jupyter.ca)
   * [Basecamp](https://basecamp.com/2918257/)
   * [github/pimsmath](https://github.com/pimsmath)
+
+<div class="mermaid">
+gantt
+        dateFormat  YYYY-MM-DD
+        title 2016-Q3
+
+        section EPIC1 
+        Start   : admin1, 2016-07-01, 1d
+        Middle  :active, done, admin1, 2016-07-01, 90d
+        End     :crit, admin2, 2016-09-30, 1d
+  
+</div>
