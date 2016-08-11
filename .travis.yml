@@ -2,6 +2,9 @@ language: node_js
 node_js:
   - "node"
 
+before_script:
+  - chmod +x ./_script/cibuild
+
 deploy:
   provider: surge
   project: './_site/'

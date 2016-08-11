@@ -26,4 +26,4 @@ author:
 # Custom vars
 version:             1.0.0
 
-exclude: [ 'package.json']
+exclude: [ 'package.json','Gemfile','_script']
