@@ -18,4 +18,4 @@ mathematical expertise on cutting edge problems from areas such as
 
 
 
-Check out the [GGMIW Event Page](http://www.pims.math.ca/industrial-event/160807-gmmiw) for full details of the problems.
+Check out the [GMMIW Event Page](http://www.pims.math.ca/industrial-event/160807-gmmiw) for full details of the problems.
