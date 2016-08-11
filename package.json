@@ -17,7 +17,7 @@
     "surge": "latest"
   },
   "scripts": {
-    "test": "./node_modules/.bin/mocha",
+    "test": "echo \"Error: no test specified\"",
     "compile": "jekyll build"
   }
 }
