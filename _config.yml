@@ -3,11 +3,11 @@
 # Use of `relative_permalinks` ensures post links from the index work properly.
 permalink:           pretty
 #relative_permalinks: true
-gems: [jekyll-paginate]
+# gems: [jekyll-paginate]
 
 # Setup
-title:               Graduate Math Modelling in Industry - 2016
-tagline:             'Discovery of Mathematical Sciences'
+title:               GMMIW2016
+tagline:             'Graduate Mathematical Modeling in Industry'
 description: >
   The GMMIW (Graduate Mathematical Modelling in Industry Workshop) is a week
   long workshop which brings together Graduate Students and Industry Experts to
@@ -24,3 +24,7 @@ author:
   email:             info@pims.math.ca
 
 exclude: [ 'package.json','Gemfile','_script','vendor']
+
+gems:
+  - jekyll-gist
+  - jekyll-paginate
