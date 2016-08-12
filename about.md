@@ -17,30 +17,4 @@ emphasis on the development of young researchers.
   * [github/pimsmath](https://github.com/pimsmath)
 
 # Sponsors
-
-
-<div class="display:inline-block;">
-    <img src="{{site-base}}/public/img/aarmslogo.png" alt="AARMS logo" height="160" width="" align="left">
-    <img src="{{site-base}}/public/img/canssi_logo.png" alt="CANSSI logo" height="160" width="" align="left">
-    <img src="{{site-base}}/public/img/crm_logo.png" alt="CRM logo" height="160" width="" align="left"> 
-    <img src="{{site-base}}/public/img/fields_logo.jpg" alt="Fields logo" height="160" width="" align="left"> 
-    <img src="{{site-base}}/public/img/PIMS-circle-with-wordmark-CAPS.png" alt="PIMS logo" height="160" width="" align="left">
-</div>
-
-
-
-
-
-<!-- 
-{% include mermaid.html %}
-<div class="mermaid">
-gantt
-        dateFormat  YYYY-MM-DD
-        title 2016-Q3
-
-        section EPIC1 
-        Start   : admin1, 2016-07-01, 1d
-        Middle  :active, done, admin1, 2016-07-01, 90d
-        End     :crit, admin2, 2016-09-30, 1d
-  
-</div> -->
+{% include sponsors.html %}
