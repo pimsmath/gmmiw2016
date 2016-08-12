@@ -15,3 +15,6 @@ emphasis on the development of young researchers.
   * [Jupyterhub](https://pims.jupyter.ca)
   * [Basecamp](https://basecamp.com/2918257/)
   * [github/pimsmath](https://github.com/pimsmath)
+
+# Sponsors
+{% include sponsors.html %}

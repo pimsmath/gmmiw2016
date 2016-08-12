@@ -3,11 +3,11 @@
 # Use of `relative_permalinks` ensures post links from the index work properly.
 permalink:           pretty
 #relative_permalinks: true
-gems: [jekyll-paginate]
+# gems: [jekyll-paginate]
 
 # Setup
-title:               Graduate Math Modelling in Industry - 2016
-#tagline:             'A Jekyll theme'
+title:               GMMIW2016
+tagline:             'Graduate Mathematical Modeling in Industry'
 description: >
   The GMMIW (Graduate Mathematical Modelling in Industry Workshop) is a week
   long workshop which brings together Graduate Students and Industry Experts to
@@ -19,11 +19,12 @@ paginate:            5
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:              Conference Organizer
+  url:               https://twitter.com/pimsmath
+  email:             info@pims.math.ca
 
-# Custom vars
-version:             1.0.0
+exclude: [ 'package.json','Gemfile','_script','vendor']
 
-exclude: [ 'package.json','Gemfile','_script']
+gems:
+  - jekyll-gist
+  - jekyll-paginate

@@ -4,5 +4,5 @@ source "https://rubygems.org"
 
 gem 'jekyll'
 gem 'jekyll-paginate'
-# gem 'kramdown'
-# gem 'html-proofer'
+gem 'jekyll-gist'
+gem 'html-proofer'
