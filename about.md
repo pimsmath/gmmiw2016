@@ -16,7 +16,22 @@ emphasis on the development of young researchers.
   * [Basecamp](https://basecamp.com/2918257/)
   * [github/pimsmath](https://github.com/pimsmath)
 
+# Sponsors
 
+
+<div class="display:inline-block;">
+    <img src="{{site-base}}/public/img/aarmslogo.png" alt="AARMS logo" height="160" width="" align="left">
+    <img src="{{site-base}}/public/img/canssi_logo.png" alt="CANSSI logo" height="160" width="" align="left">
+    <img src="{{site-base}}/public/img/crm_logo.png" alt="CRM logo" height="160" width="" align="left"> 
+    <img src="{{site-base}}/public/img/fields_logo.jpg" alt="Fields logo" height="160" width="" align="left"> 
+    <img src="{{site-base}}/public/img/PIMS-circle-with-wordmark-CAPS.png" alt="PIMS logo" height="160" width="" align="left">
+</div>
+
+
+
+
+
+<!-- 
 {% include mermaid.html %}
 <div class="mermaid">
 gantt
@@ -28,4 +43,4 @@ gantt
         Middle  :active, done, admin1, 2016-07-01, 90d
         End     :crit, admin2, 2016-09-30, 1d
   
-</div>
+</div> -->
