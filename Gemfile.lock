@@ -77,3 +77,6 @@ DEPENDENCIES
   jekyll
   jekyll-gist
   jekyll-paginate
+
+BUNDLED WITH
+   1.12.5
